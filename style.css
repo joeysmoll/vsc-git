@@ -1,0 +1,73 @@
+body {
+    background-color: grey;
+    transition: background-color 0.2s ease -in-out;
+}
+
+h1 {
+    font-size: 70px;
+    padding: 0 10px 0 auto;
+    margin: 0 0 20px 0;
+    border-bottom: dotted;
+    border-color: #FF00F0;
+    border-width: 10px;
+    text-align: left;
+    color: #0FCFFC;
+}
+
+h2 {
+    text-align: center;
+    padding: 6px 6px 0 0;
+}
+
+h3 {
+    text-align: center;
+    opacity: 0.4;
+    font-size: 30px;
+}
+
+div ol {
+    border: 6px solid #FF00F0;
+    font-family: monospace;
+    padding: 50px;
+    padding-top: 0;
+}
+
+div p {
+    text-transform: center;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    transform: translateX(20px);
+    transform: scale(0.7);
+    transform: skewX(25deg);
+}
+
+li {
+    text-align: left;
+}
+
+.iron {
+    text-align: center;
+    padding: 0 0 0 0;
+    border-bottom: 2px solid #cccccc;
+}
+
+.requirements-list li {
+    color: hsla(240, 100%, 50%, 0.5);
+}
+
+section {
+    text-align: center;
+    background: radial-gradient(grey, magenta);
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.75);
+}
+
+.links p {
+    color: #C0FC00;
+}
